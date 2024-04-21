@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Splatoon1;
+  src: url(Splatoon1.otf);
+}
+
 *{
     font-family: Splatoon1, Arial, Helvetica, sans-serif;
 }
