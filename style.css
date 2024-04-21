@@ -1,0 +1,80 @@
+*{
+    font-family: Splatoon1, Arial, Helvetica, sans-serif;
+}
+
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 754px 754px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 754px 754px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 754px 754px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 754px 754px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 754px 754px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 754px 754px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 754px 754px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 754px 754px;
+  }
+}
+
+body{
+    background-image: url(bg.jpg);
+    -webkit-animation: bg-scrolling-reverse 30s infinite;
+    /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse 30s infinite;
+    /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse 30s infinite;
+    /* Opera 12+ */
+    animation: bg-scrolling-reverse 30s infinite;
+    /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+#mainContainer{
+    margin: auto;
+    min-height: 100vh;
+    color: #f1f1f1;
+    width: 80%;
+}
+
+.progressContainer{
+    padding: 0 10vh;
+}
+
+
+.progress{
+width: 100%;
+background-color: #686868;
+border-radius: 10px;
+height: 60px;
+margin: 60px 0;
+}
